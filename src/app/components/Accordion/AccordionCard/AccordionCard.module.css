@@ -1,0 +1,32 @@
+.container {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-netural-300);
+    width: 100%;
+}
+
+.container:last-child {
+    border-bottom: none;
+}
+
+.title{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between
+}
+
+.toggle{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
